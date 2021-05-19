@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='kuri-python-toolkit',
@@ -8,5 +8,5 @@ setup(
     author='Eric Lee',
     author_email='ericstone.dev@gmail.com',
     license='unlicense',
-    packages=setuptools.find_packages(),
+    packages=find_packages(),
 )
