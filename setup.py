@@ -8,5 +8,5 @@ setup(
     author='Eric Lee',
     author_email='ericstone.dev@gmail.com',
     license='unlicense',
-    packages=find_packages(),
+    packages=['kuri-python-toolkit']
 )
